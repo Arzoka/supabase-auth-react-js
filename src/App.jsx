@@ -13,7 +13,7 @@ function App() {
 	}, []);
 
 	const createComment = async () => {
-		await SupabaseClient.from('Comment').insert([{
+		await SupabaseClient.from('Comments').insert([{
 			content: commentContent, user_id: authUser.id,
 		}]);
 	};
