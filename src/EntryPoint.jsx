@@ -1,8 +1,6 @@
 import { useEffect, useState } from 'react';
 import SupabaseClient from './supabase/Client.js';
 import App from './App.jsx';
-// if there's no account registered yet, uncomment the line below and comment the line above
-// import App from './auth.test.jsx';
 import Login from './Login.jsx';
 
 const EntryPoint = () => {

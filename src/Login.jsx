@@ -1,5 +1,6 @@
 import AttemptLogin from './supabase/auth/AttemptLogin.js';
 import { useState } from 'react';
+import attemptSignup from './supabase/auth/AttemptSignup.js';
 
 const Login = ({ setAuthenticated }) => {
 	const [email, setEmail] = useState('');
@@ -36,6 +37,12 @@ const Login = ({ setAuthenticated }) => {
 			onClick={ async () => await AttemptLogin(email, password, setAuthenticated) }
 		>
 			Log In
+		</button>
+		<button
+			style={{ marginBlockStart: '0.25rem', background: '#0000a0' }}
+			onClick={ async () => await attemptSignup(email, password, setAuthenticated, true) }
+			>
+			Register
 		</button>
 	</div>);
 };
