@@ -28,7 +28,9 @@ NOTE: this guideline assumes you have a supabase instance already set up and run
 - 3.8.1. Click on the e-mail user you want and copy credentials.
 - 3.8.2. Click on `E-mailbox aanmaken` then follow 3.8.1.
 
-4. After you've added the custom smtp server, you can now use custom email domains.
+After you've added the custom smtp server, you can now use custom email domains! :)
+
+4. Adjust the .env file in the root of the project to match your supabase instance.
 
 ## NOTE: This project assumes the existance of table Comments in your supabase instance.
 
@@ -45,4 +47,6 @@ create table
   ) tablespace pg_default;
 ```
 
-Happy coding! 🚀
+That's it!
+
+Happy coding! 🎉
