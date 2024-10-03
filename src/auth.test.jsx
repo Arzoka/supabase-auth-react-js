@@ -1,4 +1,3 @@
-import './App.css';
 import SupabaseClient from './supabase/Client.js';
 import { useEffect, useState } from 'react';
 

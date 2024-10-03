@@ -30,7 +30,7 @@ NOTE: this guideline assumes you have a supabase instance already set up and run
 
 After you've added the custom smtp server, you can now use custom email domains! :)
 
-4. Adjust the .env file in the root of the project to match your supabase instance.
+4. Create a .env file in the root of the project and fill it to match your supabase instance according to the .env.example file.
 
 ## NOTE: This project assumes the existance of table Comments in your supabase instance.
 
